@@ -5,7 +5,7 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright
 
 # ================= 申訴舉證與 LINE 通知設定 =================
-TARGET_TOTAL_USD = 906.0   # 你的雙人含稅總價 (美金)
+TARGET_TOTAL_USD = 2000.0   # 你的雙人含稅總價 (美金)
 SAVE_DIR = "完成"           # 儲存舉證截圖資料夾
 
 # 從環境變數讀取金鑰 (本機測試也可直接把字串貼在第二個引號內)
